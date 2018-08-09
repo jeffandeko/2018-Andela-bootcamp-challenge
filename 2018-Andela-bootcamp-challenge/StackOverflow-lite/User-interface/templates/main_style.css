@@ -13,6 +13,8 @@ body {
     line-height: 1;
     font-size: 20px;
     text-align: center;
+    background-color:rgb(3,3,3);
+    opacity:1.5;
 
 }
 a {
@@ -20,7 +22,7 @@ a {
     color:rgb(0,128,0);
     }
 
-/*=== CSS code for Header section === */
+/*=== ==========CSS code for Header section === =======*/
 
 header {
     background-color:rgb(3,3,3);
@@ -229,8 +231,126 @@ div > div {
  }
 
 
+ /*=====================================================*/
 
-/*== footer css==*/
+ /*== CSS for sign up page==*/
+
+#sign-up {
+    position:relative;
+    margin:0;
+    line-height:40px;
+    height:700px;
+    background-image: url('images/sign-up.jpg');
+    box-shadow: 2px 2px 8px rgb(3,3,3);
+}
+
+.sign-email {
+    position:relative;
+    text-align:center;
+    top:0px;
+    left:0px;
+    right:0px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing:border-box;
+    padding:25px;
+    width:850px;
+    height:400px;
+    color:rgb(0,128,0);
+    background-color:rgb(3,3,3);
+    opacity:0.9
+ }
+.sign-email h1 {
+    margin:0px 25px 0px 0px;
+    font-weight:550;
+    font-size:25px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type=" confirm password"] {
+    position:relative;
+    height:35px;
+    top:8px;
+    left:0px;
+    right:0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:20px;
+    display:block;
+    box-sizing:border-box;
+    padding:6px;
+    width:350px;
+    height:45px;
+    border:none;
+    outline:none;
+    border-radius:5px;
+
+
+}
+
+input[type="submit"] {
+    margin-bottom:25px;
+    margin-top:15px;
+    margin-left:0px;
+    padding:2px;
+    width:150px;
+    height:35px;
+    color:rgb(0,3,0);
+    border-radius:10px;
+    background:rgb(0,128,0);
+    border:none;
+    font-family:"Courier New", Courier, monospace;
+    font-size:25px;
+    font-weight:1850px;
+
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background:rgb(173,255,47);
+    transition:0.5s ease;
+ }
+
+.sign-social {
+    position:relative;
+    text-align:center;
+    top:0px;
+    left:0px;
+    right:0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sign-social h1 {
+    margin:0px 25px 0px 0px;
+    font-weight:550;
+    font-size:25px;
+ }
+
+button.sign {
+    margin-bottom:20px;
+    width:250px;
+    height:55px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.facebook {
+    background:rgb(50, 80, 142);
+}
+.google {
+    background:rgb(221, 75, 57)
+}
+.github {
+    background:rgb(36, 41, 46)
+}
+
+
+
+
+
+/*============= footer css=================*/
 
 #footer {
     padding: 1px;
