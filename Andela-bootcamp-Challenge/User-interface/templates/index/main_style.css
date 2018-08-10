@@ -329,6 +329,7 @@ button.sign {
     border:none;
     border-radius:5px;
     cursor:pointer;
+    opacity:1;
 }
 
 .facebook {
@@ -340,7 +341,17 @@ button.sign {
 .github {
     background:rgb(36, 41, 46)
 }
+/*===== css for login page=======*/
 
+#log-in {
+    position:relative;
+    margin:0;
+    line-height:60px;
+    text-size:35px;
+    height:900px;
+    background-image: url('images/log-in.jpg');
+    box-shadow: 2px 2px 8px rgb(3,3,3);
+}
 
 /*== footer css==*/
 
